@@ -28,18 +28,46 @@ def buscaGrupo():
     #Selecionando Região
     driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[1]/div/div[1]").click()
     time.sleep(0.8)
-    driver.find_element_by_xpath("/html/body/div[9]/div/ul/li[3]").click()
+    totRegiao = len(driver.find_elements_by_xpath('/html/body/div[9]/div/ul/li'))
+    i = 1
+    while i < totRegiao :
+        nome = driver.find_element_by_xpath('/html/body/div[9]/div/ul/li['+str(i)+']').text
+        if(nome == 'Nordeste'):
+            driver.find_element_by_xpath('/html/body/div[9]/div/ul/li['+str(i)+']').click()
+            time.sleep(0.8)
+            i = totRegiao
+        print (nome)
+        i = i + 1
     time.sleep(0.8)
     #Selecionando UF
     driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[2]/div/div[1]").click()
     time.sleep(0.8)
-    driver.find_element_by_xpath("/html/body/div[17]/div/ul/li[4]").click()
+    totUF = len(driver.find_elements_by_xpath('/html/body/div[17]/div/ul/li'))
+    i = 1
+    while i < totUF :
+        nome = driver.find_element_by_xpath('/html/body/div[17]/div/ul/li['+str(i)+']').text
+        if(nome == 'Ceará'):
+            driver.find_element_by_xpath('/html/body/div[17]/div/ul/li['+str(i)+']').click()
+            time.sleep(0.8)
+            i = totUF
+        print (nome)
+        i = i + 1
     time.sleep(0.8)
+    
     #Selecionando Instituição
+  
     driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[3]/div/div[1]").click()
     time.sleep(1)
-    driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li[22]').click()
-    time.sleep(0.8)
+    totInstituicao = len(driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li'))
+    i = 1
+    while i < totInstituicao :
+        nome = driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li['+str(i)+']').text
+        if(nome == 'Universidade da Integração Internacional da Lusofonia Afro-Brasileira'):
+            driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li['+str(i)+']').click()
+            time.sleep(0.8)
+            i = totInstituicao
+        print (nome)
+        i = i + 1
     #pesquisando
     driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idPesquisar"]').click()
 
@@ -160,25 +188,31 @@ def buscaGrupo():
 
 
 #Lendo arquivo JSON dos grupos:
-def ler_grupos_json():
-    with open('grupos.json', 'r', encoding='utf8') as f:
-        return json.load(f)
-grupos_ler_json = ler_grupos_json()
+try:
+    def ler_grupos_json():
+        with open('grupos.json', 'r', encoding='utf8') as f:
+            return json.load(f)
+    grupos_ler_json = ler_grupos_json()
+except:
+    sg.SystemTray.notify('WhileDGP notifica:', 'Ocorreu um erro ao ler o arquivo "grupos.json". Veja se há alguma informação nesse arquivo.')
 
 #Lendo arquivo JSON com espelhos:
-def ler_json():
-    with open('espelhos.json', 'r', encoding='utf8') as f:
-        return json.load(f)
-data = ler_json()
-tot_json = len(data)
+try:
+    def ler_json():
+        with open('espelhos.json', 'r', encoding='utf8') as f:
+            return json.load(f)
+    data = ler_json()
+    tot_json = len(data)
+except:
+    sg.SystemTray.notify('WhileDGP notifica:', 'Ocorreu um erro ao ler o arquivo "espelhos.json". Veja se há alguma informação nesse arquivo.')
 #lendo json dos pesquisadores:
-"""
-def ler_pesq_json():
-    with open('pesquisadores.json', 'r', encoding='utf8') as f:
-        return json.load(f)
-data_ler_pesq_json = ler_pesq_json()
-tot_json_pesq_json = len(data)
-"""
+
+#def ler_pesq_json():
+#    with open('pesquisadores.json', 'r', encoding='utf8') as f:
+#        return json.load(f)
+#data_ler_pesq_json = ler_pesq_json()
+#tot_json_pesq_json = len(data)
+
 
 def pesqGeral(valorGeral):
     valorGeral
