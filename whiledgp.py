@@ -17,174 +17,186 @@ from urllib.parse import urlparse as up
 
 sg.theme('SystemDefaultForReal')
 
-def buscaGrupo():
-    print("\n########################## CONECTANDO-SE AO SITE ######################\n")
-    driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
-    driver.get("http://dgp.cnpq.br/dgp/faces/consulta/consulta_parametrizada.jsf")
+try:
+    def buscaGrupo():
+        print("\n########################## CONECTANDO-SE AO SITE ######################\n")
+        driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
+        driver.get("http://dgp.cnpq.br/dgp/faces/consulta/consulta_parametrizada.jsf")
 
 
-    driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:buscaRefinada"]').click()
-    time.sleep(1)
-    #Selecionando Região
-    driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[1]/div/div[1]").click()
-    time.sleep(0.8)
-    totRegiao = len(driver.find_elements_by_xpath('/html/body/div[9]/div/ul/li'))
-    i = 1
-    while i < totRegiao :
-        nome = driver.find_element_by_xpath('/html/body/div[9]/div/ul/li['+str(i)+']').text
-        if(nome == 'Nordeste'):
-            driver.find_element_by_xpath('/html/body/div[9]/div/ul/li['+str(i)+']').click()
-            time.sleep(0.8)
-            i = totRegiao
-        print (nome)
-        i = i + 1
-    time.sleep(0.8)
-    #Selecionando UF
-    driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[2]/div/div[1]").click()
-    time.sleep(0.8)
-    totUF = len(driver.find_elements_by_xpath('/html/body/div[17]/div/ul/li'))
-    i = 1
-    while i < totUF :
-        nome = driver.find_element_by_xpath('/html/body/div[17]/div/ul/li['+str(i)+']').text
-        if(nome == 'Ceará'):
-            driver.find_element_by_xpath('/html/body/div[17]/div/ul/li['+str(i)+']').click()
-            time.sleep(0.8)
-            i = totUF
-        print (nome)
-        i = i + 1
-    time.sleep(0.8)
+        driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:buscaRefinada"]').click()
+        time.sleep(1)
+        #Selecionando Região
+        driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[1]/div/div[1]").click()
+        time.sleep(0.8)
+        totRegiao = len(driver.find_elements_by_xpath('/html/body/div[9]/div/ul/li'))
+        i = 1
+        while i < totRegiao :
+            nome = driver.find_element_by_xpath('/html/body/div[9]/div/ul/li['+str(i)+']').text
+            if(nome == 'Nordeste'):
+                driver.find_element_by_xpath('/html/body/div[9]/div/ul/li['+str(i)+']').click()
+                time.sleep(0.8)
+                i = totRegiao
+            print (nome)
+            i = i + 1
+        time.sleep(0.8)
+        #Selecionando UF
+        driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[2]/div/div[1]").click()
+        time.sleep(0.8)
+        totUF = len(driver.find_elements_by_xpath('/html/body/div[17]/div/ul/li'))
+        i = 1
+        while i < totUF :
+            nome = driver.find_element_by_xpath('/html/body/div[17]/div/ul/li['+str(i)+']').text
+            if(nome == 'Ceará'):
+                driver.find_element_by_xpath('/html/body/div[17]/div/ul/li['+str(i)+']').click()
+                time.sleep(0.8)
+                i = totUF
+            print (nome)
+            i = i + 1
+        time.sleep(0.8)
+        
+        #Selecionando Instituição
     
-    #Selecionando Instituição
-  
-    driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[3]/div/div[1]").click()
-    time.sleep(1)
-    totInstituicao = len(driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li'))
-    i = 1
-    while i < totInstituicao :
-        nome = driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li['+str(i)+']').text
-        if(nome == 'Universidade da Integração Internacional da Lusofonia Afro-Brasileira'):
-            driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li['+str(i)+']').click()
-            time.sleep(0.8)
-            i = totInstituicao
-        print (nome)
-        i = i + 1
-    #pesquisando
-    driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idPesquisar"]').click()
+        driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/fieldset/span[3]/span[1]/div[3]/div/div[1]").click()
+        time.sleep(1)
+        totInstituicao = len(driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li'))
+        i = 1
+        while i < totInstituicao :
+            nome = driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li['+str(i)+']').text
+            if(nome == 'Universidade da Integração Internacional da Lusofonia Afro-Brasileira'):
+                driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idInst_panel"]/div/ul/li['+str(i)+']').click()
+                time.sleep(0.8)
+                i = totInstituicao
+            print (nome)
+            i = i + 1
+        #pesquisando
+        driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:idPesquisar"]').click()
 
-    #Selecionando o total de página
-    time.sleep(10)
-    driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/div[1]/div[2]/select").click()
-    driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/div[1]/div[2]/select/option[3]").click()
-
-
-    #Contagem do total de páginas
-    time.sleep(10)
-    cont_pg0 = len(driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_paginator_bottom"]/span[3]/span'))
-    print(cont_pg0)
-
-
-    ######## VOLTANDO PARA A PRIMEIRA PAGINA E COMEÇANDO A PEGAR INFORMAÇÕES ###########
-    time.sleep(5)
-    driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_paginator_bottom"]/span[3]/span[1]').click()
-
-    #contando novamente o total de páginas para realizar o loop
-    time.sleep(5)
-    cont_pg1 = len(driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_paginator_bottom"]/span[3]/span'))
-
-    #loop para pegar informações
-    time.sleep(2)
-    dados_app2 = []
-    dados = []
-    i = 0
-    while i < cont_pg1:
-        #Parte em que ele conta as páginas
-        driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_paginator_bottom"]/span[3]/span['+str(i+1)+']').click()
+        #Selecionando o total de página
         time.sleep(10)
-        #contar o total de grupos daquela pagina
-        tot_grupos = len((driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_content"]/ul/li')))
-        #while para pegar informações grupo por grupo a partir do total de grupos:
-        print(tot_grupos)
-        j = 0
-        while j < tot_grupos:
-            time.sleep(2)
-            driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_list"]/li['+str(j+1)+']/div/div[1]/div/a').click()
-            driver.window_handles
-            driver.switch_to.window(driver.window_handles[1])
-            time.sleep(1)
-            #Contagem do total de alunos e pesquisadores no grupo
-            cont_pesq = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt261_data"]/tr'))
-            cont_alun = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt278_data"]/tr'))
-            cont_pesq_egress = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt332_data"]/tr'))
-            cont_alun_egress = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt344_data"]/tr'))
-            
-            #fracionando links para pegar apenas IDs dos grupos e Lattes
-            #grupo:
-            espelho_grupo = driver.find_element_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa"]/div/div[2]').text
-            parts = urlsplit(espelho_grupo)
-            paths = parts.path.split('/')
-            #pesquisador:
-            
-            #aluno:
-            
-            
-            #guardando valores para o arquivo JSON
-            espelho_grup = paths[-1]
-            ano_formacao = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[2]/div').text
-            grupo_nome = driver.find_element_by_xpath('//*[@id="tituloImpressao"]/h1').text
-            situacao_grupo = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[1]/div').text
-            data_situacao = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[3]/div').text
-            data_ulti_envi = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[4]/div').text
-            contato = driver.find_element_by_xpath('//*[@id="endereco"]/fieldset/div[13]/div/a').text
-            uf = driver.find_element_by_xpath('//*[@id="endereco"]/fieldset/div[5]/div').text
-            localidade = driver.find_element_by_xpath('//*[@id="endereco"]/fieldset/div[6]/div').text
-            lid_grupo = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[5]/div').text
-            area_predom = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[6]/div').text
-            instituicao = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[7]/div').text
-            espelho_link = driver.find_element_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa"]/div/div[2]').text
+        driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/div[1]/div[2]/select").click()
+        driver.find_element_by_xpath("/html/body/div[3]/div/div/form[2]/span/div[1]/div[2]/select/option[3]").click()
 
-            #estrutura para guardar os dados no PRIMEIRO arquivo JSON
-            grupo =    {
-                               "grupo_pesquisa" : 
-                                   {
-                                       "identificacao":{
-                                           "nome": grupo_nome,
-                                           "situacao": situacao_grupo,
-                                           "anoformacao": ano_formacao,
-                                           "lider_es": lid_grupo,
-                                           "area_predominante": area_predom,
-                                           "UF": uf,
-                                           "istituicao": instituicao,
-                                           "total_pesq_ativ": cont_pesq,
-                                           "total_alun_ativ": cont_alun,
-                                           "total_pesq_egress": cont_pesq_egress,
-                                           "total_alun_egress": cont_alun_egress,
-                                           "espelho_grup": espelho_link
-                                           
-                                       }
-                                   }
-                               
-                         }
-            #estrutura para guardar os dados no SEGUNDO arquivo JSON
-            espelho_app2 = {
-                                "espelho": espelho_grup
-                           }
 
-            dados.append(grupo)
-            dados_app2.append(espelho_app2)
-            driver.close()
-            driver.switch_to.window(driver.window_handles[0])
-            print("Dados do grupo coletados...")
-            driver.execute_script("window.scrollTo(2,document.body.scrollHeight)")
-            j = j + 1
-        i = i + 1
-    print('Gravando dados nos arquivos')
-    #Enviando os dados ao arquivo "data.json"(ATUALIZANDO O ARQUIVO COM NOVOS DADOS)
-    with open('grupos.json', 'w', encoding='utf-8') as f:
-        json.dump(dados, f, ensure_ascii=False, indent=4)
-    with open('espelhos.json', 'w', encoding='utf-8') as f:
-        json.dump(dados_app2, f, ensure_ascii=False, indent=4)
-    sg.SystemTray.notify('WhileDGP notifica:', 'Todos os dados foram recuperados... Acesse o arquivos "grupos.json" para ter acesso a todas as informções recuperadas... ')
+        #Contagem do total de páginas
+        time.sleep(10)
+        cont_pg0 = len(driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_paginator_bottom"]/span[3]/span'))
+        print(cont_pg0)
 
+
+        ######## VOLTANDO PARA A PRIMEIRA PAGINA E COMEÇANDO A PEGAR INFORMAÇÕES ###########
+        time.sleep(5)
+        driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_paginator_bottom"]/span[3]/span[1]').click()
+
+        #contando novamente o total de páginas para realizar o loop
+        time.sleep(5)
+        cont_pg1 = len(driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_paginator_bottom"]/span[3]/span'))
+
+        #loop para pegar informações
+        time.sleep(2)
+        dados_app2 = []
+        dados = []
+        i = 0
+        while i < cont_pg1:
+            #Parte em que ele conta as páginas
+            driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_paginator_bottom"]/span[3]/span['+str(i+1)+']').click()
+            time.sleep(10)
+            #contar o total de grupos daquela pagina
+            tot_grupos = len((driver.find_elements_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_content"]/ul/li')))
+            #while para pegar informações grupo por grupo a partir do total de grupos:
+            print(tot_grupos)
+            j = 0
+            while j < tot_grupos:
+                time.sleep(2)
+                driver.find_element_by_xpath('//*[@id="idFormConsultaParametrizada:resultadoDataList_list"]/li['+str(j+1)+']/div/div[1]/div/a').click()
+                driver.window_handles
+                driver.switch_to.window(driver.window_handles[1])
+                time.sleep(1)
+                #Contagem do total de alunos e pesquisadores no grupo
+                cont_pesq = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt261_data"]/tr'))
+                cont_alun = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt278_data"]/tr'))
+                cont_pesq_egress = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt332_data"]/tr'))
+                cont_alun_egress = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt344_data"]/tr'))
+                
+                #fracionando links para pegar apenas IDs dos grupos e Lattes
+                #grupo:
+                espelho_grupo = driver.find_element_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa"]/div/div[2]').text
+                parts = urlsplit(espelho_grupo)
+                paths = parts.path.split('/')
+                #pesquisador:
+                
+                #aluno:
+                
+                
+                #guardando valores para o arquivo JSON
+                espelho_grup = paths[-1]
+                ano_formacao = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[2]/div').text
+                grupo_nome = driver.find_element_by_xpath('//*[@id="tituloImpressao"]/h1').text
+                situacao_grupo = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[1]/div').text
+
+                if (situacao_grupo == 'Excluído'):
+                    driver.close()
+                    driver.switch_to.window(driver.window_handles[0])
+                    print("Grupo Excluído...")
+                    driver.execute_script("window.scrollTo(2,document.body.scrollHeight)")
+                    j = j + 1
+                else:
+                    data_situacao = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[3]/div').text
+                    data_ulti_envi = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[4]/div').text
+                    contato = driver.find_element_by_xpath('//*[@id="endereco"]/fieldset/div[13]/div/a').text
+                    uf = driver.find_element_by_xpath('//*[@id="endereco"]/fieldset/div[5]/div').text
+
+                    
+                    localidade = driver.find_element_by_xpath('//*[@id="endereco"]/fieldset/div[6]/div').text
+                    lid_grupo = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[5]/div').text
+                    area_predom = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[6]/div').text
+                    instituicao = driver.find_element_by_xpath('//*[@id="identificacao"]/fieldset/div[7]/div').text
+                    espelho_link = driver.find_element_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa"]/div/div[2]').text
+
+                    #estrutura para guardar os dados no PRIMEIRO arquivo JSON
+                    grupo =    {
+                                    "grupo_pesquisa" : 
+                                        {
+                                            "identificacao":{
+                                                "nome": grupo_nome,
+                                                "situacao": situacao_grupo,
+                                                "anoformacao": ano_formacao,
+                                                "lider_es": lid_grupo,
+                                                "area_predominante": area_predom,
+                                                "UF": uf,
+                                                "istituicao": instituicao,
+                                                "total_pesq_ativ": cont_pesq,
+                                                "total_alun_ativ": cont_alun,
+                                                "total_pesq_egress": cont_pesq_egress,
+                                                "total_alun_egress": cont_alun_egress,
+                                                "espelho_grup": espelho_link
+                                                
+                                            }
+                                        }
+                                    
+                                }
+                    #estrutura para guardar os dados no SEGUNDO arquivo JSON
+                    espelho_app2 = {
+                                        "espelho": espelho_grup
+                                }
+
+                    dados.append(grupo)
+                    dados_app2.append(espelho_app2)
+                    driver.close()
+                    driver.switch_to.window(driver.window_handles[0])
+                    print("Dados do grupo coletados...")
+                    driver.execute_script("window.scrollTo(2,document.body.scrollHeight)")
+                    j = j + 1
+            i = i + 1
+        print('Gravando dados nos arquivos')
+        #Enviando os dados ao arquivo "data.json"(ATUALIZANDO O ARQUIVO COM NOVOS DADOS)
+        with open('grupos.json', 'w', encoding='utf-8') as f:
+            json.dump(dados, f, ensure_ascii=False, indent=4)
+        with open('espelhos.json', 'w', encoding='utf-8') as f:
+            json.dump(dados_app2, f, ensure_ascii=False, indent=4)
+        sg.SystemTray.notify('WhileDGP notifica:', 'Todos os dados foram recuperados... Acesse o arquivos "grupos.json" para ter acesso a todas as informções recuperadas... ')
+except:
+    sg.SystemTray.notify('WhileDGP notifica:', 'Ocorreu um erro ao iniciar a coleta de dados dos grupos.')
 
 
 #Lendo arquivo JSON dos grupos:
@@ -213,7 +225,6 @@ except:
 #data_ler_pesq_json = ler_pesq_json()
 #tot_json_pesq_json = len(data)
 
-
 def pesqGeral(valorGeral):
     valorGeral
     dados = []
@@ -236,10 +247,6 @@ def pesqGeral(valorGeral):
             content = req.content
             soup = BeautifulSoup(content, 'html.parser')
 
-
-            
-            
-            
         ###################################### PARTE PARA PEGAR DADOS DO GRUPO ########################################################
             
             #Contagem do total de alunos e pesquisadores no grupo
@@ -248,8 +255,6 @@ def pesqGeral(valorGeral):
             cont_alun = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt278_data"]/tr'))
             cont_pesq_egress = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt332_data"]/tr'))
             cont_alun_egress = len(driver.find_elements_by_xpath('//*[@id="idFormVisualizarGrupoPesquisa:j_idt344_data"]/tr'))
-            
-            
 
             print("\n\nPESQUISADORES(NOMES):\n")
             
@@ -290,9 +295,7 @@ def pesqGeral(valorGeral):
             print(nomes)
             print(lattes)
             #Voltando para primeira aba para iniciar a coleta de dados de produção
-            driver.switch_to.window(driver.window_handles[0])
-            
-            
+            driver.switch_to.window(driver.window_handles[0])      
         ########################################################### FIM ###########################################################
         ################################### PEGANDO INDICADORES DE PRODUÇÃO DE CADA PESQUISADOR ###################################
             #Loop para entrar nas páginas:
@@ -519,8 +522,6 @@ def pesqGeral(valorGeral):
                                                         }
                                                 }
                                      }
-
-
                         if cont_lin == 7:
                             valor1 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[1]').text
                             valor11 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[2]').text
@@ -551,8 +552,6 @@ def pesqGeral(valorGeral):
                                                         }
                                                 }
                                      }
-
-
                         if cont_lin == 6:
                             valor1 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[1]').text
                             valor11 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[2]').text
@@ -580,8 +579,6 @@ def pesqGeral(valorGeral):
                                                         }
                                                 }
                                      }
-
-
                         if cont_lin == 5:
                             valor1 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[1]').text
                             valor11 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[2]').text
@@ -606,8 +603,6 @@ def pesqGeral(valorGeral):
                                                         }
                                                 }
                                      }
-
-
                         if cont_lin == 4:
                             valor1 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[1]').text
                             valor11 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[2]').text
@@ -629,8 +624,6 @@ def pesqGeral(valorGeral):
                                                         }
                                                 }
                                      }
-
-
                         if cont_lin == 3:
                             valor1 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[1]').text
                             valor11 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[2]').text
@@ -649,8 +642,6 @@ def pesqGeral(valorGeral):
                                                         }
                                                 }
                                      }
-
-
                         if cont_lin == 2:
                             valor1 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[1]').text
                             valor11 = driver.find_element_by_xpath('//*[@class="grafico"][9]/div/div/div/table/tbody/tr[2]/td[2]').text
@@ -665,10 +656,7 @@ def pesqGeral(valorGeral):
                                                                 }
                                                         }
                                                 }
-                                     }
-
-
-                        
+                                     }                      
                     elif cont_tabs == 8:
                         cont_lin = len(driver.find_elements_by_xpath('//*[@class="grafico"][8]/div/div/div/table/tbody/tr'))
                         nome = nomes[k]
@@ -5015,10 +5003,6 @@ def pesqGeral(valorGeral):
     with open('pesquisadores.json', 'a', encoding='utf-8') as f:
         json.dump(dados, f, ensure_ascii=False, indent=4)
     sg.SystemTray.notify('WhileDGP notifica:', 'Todos os dados foram recuperados... Acesse o arquivos "pesquisadoresgeral.json" para ter acesso a todas as informções recuperadas... ')
-
-
-
-
 
 #Segundo condicional para realizar busca por links específico
 def pesqLinks(link, valor_cond, valor_combo):
@@ -12446,7 +12430,7 @@ def pesqLinks(link, valor_cond, valor_combo):
 #Layout Para pesquisadores:
 def buscaPesquisadores():
     layout = [[sg.Text('Qual forma deseja coletar dados dos pesquisadoes:')],
-              [sg.Text('Total de grupos salvos:'), sg.Text(str(tot_json))],
+              [sg.Text('Total de grupos salvos:'), sg.Text('str(tot_json)')],
               [sg.B('Coletar dados de todos os grupos salvos', key='op1', size=(30, 1))],
               [sg.B('Coletar dados usando Link específico', key='op2', size=(30, 1))],
               [sg.B('Sair', key='sair', size=(30, 1))]]
