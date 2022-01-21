@@ -1,0 +1,1693 @@
+[
+    {
+        "grupo_pesquisa": {
+            "identificacao": {
+                "nome": "GEPILIS- Grupo de Estudo, Extensão e Pesquisa Interdisciplinares em Linguagem e Sociedade",
+                "situacao": "Certificado",
+                "anoformacao": "2017",
+                "lider_es": "Alexandre Cohn da Silveira\n\nAna Rita de Cassia Santos Barbosa",
+                "area_predominante": "Lingüística, Letras e Artes; Letras",
+                "UF": "BA",
+                "istituicao": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira - UNILAB",
+                "pesquisadores": [
+                    {
+                        "pesquisador_Nome": "Alexandre Cohn da Silveira",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Ana Kézia dos Santos Nascimento",
+                        "titulacao_Maxima": "Ensino Médio (2o grau)"
+                    },
+                    {
+                        "pesquisador_Nome": "Ana Rita de Cassia Santos Barbosa",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Anderson",
+                        "titulacao_Maxima": "Ensino Médio (2o grau)"
+                    },
+                    {
+                        "pesquisador_Nome": "Andrea Bispo Silva",
+                        "titulacao_Maxima": "Especialização"
+                    },
+                    {
+                        "pesquisador_Nome": "Carlos Héric Silva Oliveira",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Carlos Maroto Guerola",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Cleânia Martins de Oliveira",
+                        "titulacao_Maxima": "Especialização"
+                    },
+                    {
+                        "pesquisador_Nome": "Cristina Ferreira da Silva",
+                        "titulacao_Maxima": "Mestrado Profissional"
+                    },
+                    {
+                        "pesquisador_Nome": "Elias Flores Kanusse",
+                        "titulacao_Maxima": "Graduação"
+                    },
+                    {
+                        "pesquisador_Nome": "Fred Lima da Silva",
+                        "titulacao_Maxima": "Mestrado"
+                    },
+                    {
+                        "pesquisador_Nome": "Geovani José Gonçalves",
+                        "titulacao_Maxima": "Mestrado"
+                    },
+                    {
+                        "pesquisador_Nome": "Gilmar Almeida da Silva",
+                        "titulacao_Maxima": "Mestrado Profissional"
+                    },
+                    {
+                        "pesquisador_Nome": "Igor Fonsêca de Oliveira",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Irlene Santos de Oliveira",
+                        "titulacao_Maxima": "Ensino Médio (2o grau)"
+                    },
+                    {
+                        "pesquisador_Nome": "Jeane Nascimento Santos",
+                        "titulacao_Maxima": "Especialização"
+                    },
+                    {
+                        "pesquisador_Nome": "Jorge Garcia Basso",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Jucélia Bispo dos Santos",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Leandro Faustino Polastrini",
+                        "titulacao_Maxima": "Mestrado"
+                    },
+                    {
+                        "pesquisador_Nome": "Lucilene Rezende Alcanfor",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Marlon Marcos Vieira Passos",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Neilde Rosa dos Santos Cardoso",
+                        "titulacao_Maxima": "Especialização"
+                    },
+                    {
+                        "pesquisador_Nome": "Roberto dos Reis Cruz",
+                        "titulacao_Maxima": "Mestrado"
+                    },
+                    {
+                        "pesquisador_Nome": "Silom Alfa",
+                        "titulacao_Maxima": "Graduação"
+                    },
+                    {
+                        "pesquisador_Nome": "Thaís Fernanda Leite Madeira",
+                        "titulacao_Maxima": "Doutorado"
+                    },
+                    {
+                        "pesquisador_Nome": "Valdimiro Dias Esteves",
+                        "titulacao_Maxima": "Graduação"
+                    },
+                    {
+                        "pesquisador_Nome": "Yara da Paixão Ferreira",
+                        "titulacao_Maxima": "Mestrado Profissional"
+                    }
+                ],
+                "estudantes": [
+                    {
+                        "aluno_Nome": "Alina Guimarães lima",
+                        "nivel_Treinamento": "Especialização"
+                    },
+                    {
+                        "aluno_Nome": "Belisa Andrade do Amaral",
+                        "nivel_Treinamento": "Graduação"
+                    },
+                    {
+                        "aluno_Nome": "Elisabeth Lopes dos Santos",
+                        "nivel_Treinamento": "Graduação"
+                    },
+                    {
+                        "aluno_Nome": "Gabriele De Jesus Batista",
+                        "nivel_Treinamento": "Graduação"
+                    },
+                    {
+                        "aluno_Nome": "Julio Epalanga Sacalembe",
+                        "nivel_Treinamento": "Graduação"
+                    },
+                    {
+                        "aluno_Nome": "Laura Maria da Silva Santana",
+                        "nivel_Treinamento": "Graduação"
+                    },
+                    {
+                        "aluno_Nome": "Liane Santos do Nascimento",
+                        "nivel_Treinamento": "Graduação"
+                    },
+                    {
+                        "aluno_Nome": "Maria Telma Pedro",
+                        "nivel_Treinamento": "Mestrado"
+                    },
+                    {
+                        "aluno_Nome": "Nídia Batista dos Santos dos Anjos",
+                        "nivel_Treinamento": "Especialização"
+                    },
+                    {
+                        "aluno_Nome": "Rafaela Bacelar Santos",
+                        "nivel_Treinamento": "Especialização"
+                    },
+                    {
+                        "aluno_Nome": "Tatiane Santos da Cruz",
+                        "nivel_Treinamento": "Graduação"
+                    }
+                ],
+                "producaoPesquisadores": [
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Alexandre Cohn da Silveira",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Artes Visuais": "1",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Artigos Completos Publicados em Periódicos": "6",
+                                    "Livro ou Capítulo": "5",
+                                    "Apresentações de trabalho": "14",
+                                    "Trabalhos Técnicos": "6",
+                                    "Outras": "26"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Alexandre Cohn da Silveira",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Artes Visuais": "1",
+                                    "Artigos Completos Publicados em Periódicos": "5",
+                                    "Livro ou Capítulo": "4",
+                                    "Apresentações de trabalho": "7",
+                                    "Trabalhos Técnicos": "5",
+                                    "Outras": "26"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Alexandre Cohn da Silveira",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Artigos Completos Publicados em Periódicos": "4",
+                                    "Livro ou Capítulo": "4",
+                                    "Apresentações de trabalho": "7",
+                                    "Trabalhos Técnicos": "5",
+                                    "Outras": "26"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Alexandre Cohn da Silveira",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Artigos Completos Publicados em Periódicos": "3",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "6",
+                                    "Trabalhos Técnicos": "4",
+                                    "Outras": "21"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Alexandre Cohn da Silveira",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Trabalhos Técnicos": "4",
+                                    "Outras": "6"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Ana Rita de Cassia Santos Barbosa",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "8",
+                                    "Artigos Completos Publicados em Periódicos": "3",
+                                    "Livro ou Capítulo": "6",
+                                    "Apresentações de trabalho": "9",
+                                    "Outras": "7"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Ana Rita de Cassia Santos Barbosa",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "8",
+                                    "Artigos Completos Publicados em Periódicos": "3",
+                                    "Livro ou Capítulo": "5",
+                                    "Apresentações de trabalho": "7",
+                                    "Outras": "7"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Ana Rita de Cassia Santos Barbosa",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "8",
+                                    "Artigos Completos Publicados em Periódicos": "3",
+                                    "Livro ou Capítulo": "4",
+                                    "Apresentações de trabalho": "7",
+                                    "Outras": "7"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Ana Rita de Cassia Santos Barbosa",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "7",
+                                    "Artigos Completos Publicados em Periódicos": "3",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "5",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Ana Rita de Cassia Santos Barbosa",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "7",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "2",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Andrea Bispo Silva",
+                                "producao": {
+                                    "ano": "2010",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "3",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Andrea Bispo Silva",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Héric Silva Oliveira",
+                                "producao": {
+                                    "ano": "2016",
+                                    "Trabalhos Publicados em Anais de Evento": "6",
+                                    "Resumos Publicados em Anais de Eventos": "18",
+                                    "Artigos Completos Publicados em Periódicos": "2",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "24",
+                                    "Outras": "12"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Héric Silva Oliveira",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Trabalhos Publicados em Anais de Evento": "5",
+                                    "Resumos Publicados em Anais de Eventos": "14",
+                                    "Artigos Completos Publicados em Periódicos": "2",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "20",
+                                    "Outras": "5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Héric Silva Oliveira",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Resumos Publicados em Anais de Eventos": "8",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "13",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Héric Silva Oliveira",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Resumos Publicados em Anais de Eventos": "6",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "8",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Héric Silva Oliveira",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Maroto Guerola",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Orientações Concluídas de Doutorado": "1",
+                                    "Música": "1",
+                                    "Artigos Completos Publicados em Periódicos": "5",
+                                    "Livro ou Capítulo": "4",
+                                    "Apresentações de trabalho": "8",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "14"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Maroto Guerola",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Orientações Concluídas de Doutorado": "1",
+                                    "Música": "1",
+                                    "Artigos Completos Publicados em Periódicos": "4",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "5",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "14"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Maroto Guerola",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Orientações Concluídas de Doutorado": "1",
+                                    "Artigos Completos Publicados em Periódicos": "2",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "4",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Maroto Guerola",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Orientações Concluídas de Doutorado": "1",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "2",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Carlos Maroto Guerola",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Orientações Concluídas de Doutorado": "1",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cleânia Martins de Oliveira",
+                                "producao": {
+                                    "ano": "2014",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cleânia Martins de Oliveira",
+                                "producao": {
+                                    "ano": "2015",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cleânia Martins de Oliveira",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cleânia Martins de Oliveira",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cristina Ferreira da Silva",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Trabalhos Publicados em Anais de Evento": "2",
+                                    "Resumos Publicados em Anais de Eventos": "2",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "13",
+                                    "Trabalhos Técnicos": "3",
+                                    "Outras": "7"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cristina Ferreira da Silva",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Trabalhos Publicados em Anais de Evento": "2",
+                                    "Resumos Publicados em Anais de Eventos": "2",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "12",
+                                    "Trabalhos Técnicos": "3",
+                                    "Outras": "7"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cristina Ferreira da Silva",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "2",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "12",
+                                    "Trabalhos Técnicos": "3",
+                                    "Outras": "7"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cristina Ferreira da Silva",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Resumos Publicados em Anais de Eventos": "2",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "10",
+                                    "Trabalhos Técnicos": "2",
+                                    "Outras": "7"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Cristina Ferreira da Silva",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Resumos Publicados em Anais de Eventos": "2",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "7",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Elias Flores Kanusse",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Apresentações de trabalho": "6",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Elias Flores Kanusse",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Apresentações de trabalho": "5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Elias Flores Kanusse",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Apresentações de trabalho": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Fred Lima da Silva",
+                                "producao": {
+                                    "ano": "2006",
+                                    "Resumos Publicados em Anais de Eventos": "3",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "2",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Fred Lima da Silva",
+                                "producao": {
+                                    "ano": "2007",
+                                    "Resumos Publicados em Anais de Eventos": "2",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Fred Lima da Silva",
+                                "producao": {
+                                    "ano": "2010",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Fred Lima da Silva",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Fred Lima da Silva",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Livro ou Capítulo": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Geovani José Gonçalves",
+                                "producao": {
+                                    "ano": "2014",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "5",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "6",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Geovani José Gonçalves",
+                                "producao": {
+                                    "ano": "2016",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "4",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "5",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Geovani José Gonçalves",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "4",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "4",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Geovani José Gonçalves",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Artigos Completos Publicados em Periódicos": "4",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "2",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Geovani José Gonçalves",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Trabalhos Publicados em Anais de Evento": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Gilmar Almeida da Silva",
+                                "producao": {
+                                    "ano": "2012",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "2",
+                                    "Trabalhos Técnicos": "2",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Gilmar Almeida da Silva",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "1",
+                                    "Trabalhos Técnicos": "2",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Gilmar Almeida da Silva",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "1",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Igor Fonsêca de Oliveira",
+                                "producao": {
+                                    "ano": "2013",
+                                    "Apresentações de trabalho": "2",
+                                    "Trabalhos Técnicos": "2",
+                                    "Outras": "20"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Igor Fonsêca de Oliveira",
+                                "producao": {
+                                    "ano": "2014",
+                                    "Apresentações de trabalho": "1",
+                                    "Trabalhos Técnicos": "2",
+                                    "Outras": "20"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Igor Fonsêca de Oliveira",
+                                "producao": {
+                                    "ano": "2016",
+                                    "Trabalhos Técnicos": "2",
+                                    "Outras": "20"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Igor Fonsêca de Oliveira",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Igor Fonsêca de Oliveira",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Irlene Santos de Oliveira",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Apresentações de trabalho": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Irlene Santos de Oliveira",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Apresentações de trabalho": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Irlene Santos de Oliveira",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Artigos Completos Publicados em Periódicos": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jeane Nascimento Santos",
+                                "producao": {
+                                    "ano": "2015",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "3",
+                                    "Apresentações de trabalho": "7",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jeane Nascimento Santos",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "3",
+                                    "Apresentações de trabalho": "7",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jeane Nascimento Santos",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Apresentações de trabalho": "5",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jeane Nascimento Santos",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Apresentações de trabalho": "3",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jeane Nascimento Santos",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Apresentações de trabalho": "2",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jorge Garcia Basso",
+                                "producao": {
+                                    "ano": "2014",
+                                    "Trabalhos Publicados em Anais de Evento": "4",
+                                    "Resumos Publicados em Anais de Eventos": "3",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "9",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jorge Garcia Basso",
+                                "producao": {
+                                    "ano": "2016",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "6",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jorge Garcia Basso",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "4",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jorge Garcia Basso",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "2",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jorge Garcia Basso",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Artigos Completos Publicados em Periódicos": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jucélia Bispo dos Santos",
+                                "producao": {
+                                    "ano": "2016",
+                                    "Artigos Completos Publicados em Periódicos": "2",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "3",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jucélia Bispo dos Santos",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Apresentações de trabalho": "3",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jucélia Bispo dos Santos",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jucélia Bispo dos Santos",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Jucélia Bispo dos Santos",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Leandro Faustino Polastrini",
+                                "producao": {
+                                    "ano": "2016",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "4",
+                                    "Outras": "18"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Leandro Faustino Polastrini",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "4",
+                                    "Outras": "17"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Leandro Faustino Polastrini",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "3",
+                                    "Outras": "12"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Leandro Faustino Polastrini",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "8"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Leandro Faustino Polastrini",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Outras": "5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Lucilene Rezende Alcanfor",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Trabalhos Publicados em Anais de Evento": "1",
+                                    "Artigos Completos Publicados em Periódicos": "2",
+                                    "Livro ou Capítulo": "1",
+                                    "Apresentações de trabalho": "1",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "24"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Lucilene Rezende Alcanfor",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "1",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "13"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Lucilene Rezende Alcanfor",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "8"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Lucilene Rezende Alcanfor",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Outras": "5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Lucilene Rezende Alcanfor",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Marlon Marcos Vieira Passos",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Livro ou Capítulo": "5",
+                                    "Apresentações de trabalho": "8",
+                                    "Trabalhos Técnicos": "5",
+                                    "Outras": "123"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Marlon Marcos Vieira Passos",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Livro ou Capítulo": "5",
+                                    "Apresentações de trabalho": "8",
+                                    "Trabalhos Técnicos": "5",
+                                    "Outras": "95"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Marlon Marcos Vieira Passos",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "8",
+                                    "Trabalhos Técnicos": "5",
+                                    "Outras": "67"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Marlon Marcos Vieira Passos",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Apresentações de trabalho": "3",
+                                    "Trabalhos Técnicos": "1",
+                                    "Outras": "31"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Marlon Marcos Vieira Passos",
+                                "producao": {
+                                    "ano": "2022",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Neilde Rosa dos Santos Cardoso",
+                                "producao": {
+                                    "ano": "2013",
+                                    "Outras": "10"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Neilde Rosa dos Santos Cardoso",
+                                "producao": {
+                                    "ano": "2014",
+                                    "Outras": "8"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Neilde Rosa dos Santos Cardoso",
+                                "producao": {
+                                    "ano": "2015",
+                                    "Outras": "5"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Neilde Rosa dos Santos Cardoso",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Neilde Rosa dos Santos Cardoso",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Roberto dos Reis Cruz",
+                                "producao": {
+                                    "ano": "2014",
+                                    "Apresentações de trabalho": "4",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Roberto dos Reis Cruz",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Apresentações de trabalho": "3",
+                                    "Outras": "4"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Roberto dos Reis Cruz",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Apresentações de trabalho": "3",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Roberto dos Reis Cruz",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Roberto dos Reis Cruz",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Apresentações de trabalho": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Silom Alfa",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "6",
+                                    "Outras": "11"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Silom Alfa",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "5",
+                                    "Outras": "7"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Silom Alfa",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "3",
+                                    "Outras": "6"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Silom Alfa",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Apresentações de trabalho": "2",
+                                    "Outras": "3"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Thaís Fernanda Leite Madeira",
+                                "producao": {
+                                    "ano": "2010",
+                                    "Trabalhos Publicados em Anais de Evento": "3",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Livro ou Capítulo": "2",
+                                    "Apresentações de trabalho": "1",
+                                    "Outras": "9"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Thaís Fernanda Leite Madeira",
+                                "producao": {
+                                    "ano": "2011",
+                                    "Trabalhos Publicados em Anais de Evento": "3",
+                                    "Livro ou Capítulo": "1",
+                                    "Outras": "9"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Thaís Fernanda Leite Madeira",
+                                "producao": {
+                                    "ano": "2013",
+                                    "Livro ou Capítulo": "1",
+                                    "Outras": "8"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Thaís Fernanda Leite Madeira",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Livro ou Capítulo": "1",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Thaís Fernanda Leite Madeira",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Valdimiro Dias Esteves",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Apresentações de trabalho": "2",
+                                    "Outras": "1"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Yara da Paixão Ferreira",
+                                "producao": {
+                                    "ano": "2017",
+                                    "Artes Cênicas": "5",
+                                    "Música": "2",
+                                    "Artes Visuais": "4",
+                                    "Resumos Publicados em Anais de Eventos": "7",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "5",
+                                    "Apresentações de trabalho": "10",
+                                    "Processos ou Técnica": "4",
+                                    "Outras": "21"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Yara da Paixão Ferreira",
+                                "producao": {
+                                    "ano": "2018",
+                                    "Artes Cênicas": "5",
+                                    "Música": "2",
+                                    "Artes Visuais": "4",
+                                    "Resumos Publicados em Anais de Eventos": "4",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "4",
+                                    "Apresentações de trabalho": "8",
+                                    "Processos ou Técnica": "4",
+                                    "Outras": "17"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Yara da Paixão Ferreira",
+                                "producao": {
+                                    "ano": "2019",
+                                    "Artes Cênicas": "5",
+                                    "Música": "2",
+                                    "Artes Visuais": "4",
+                                    "Resumos Publicados em Anais de Eventos": "1",
+                                    "Artigos Completos Publicados em Periódicos": "1",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "5",
+                                    "Processos ou Técnica": "4",
+                                    "Outras": "15"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Yara da Paixão Ferreira",
+                                "producao": {
+                                    "ano": "2020",
+                                    "Artes Cênicas": "5",
+                                    "Música": "2",
+                                    "Artes Visuais": "4",
+                                    "Livro ou Capítulo": "3",
+                                    "Apresentações de trabalho": "3",
+                                    "Processos ou Técnica": "4",
+                                    "Outras": "14"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "pesquisador": {
+                            "identificacao": {
+                                "pesquisador": "Yara da Paixão Ferreira",
+                                "producao": {
+                                    "ano": "2021",
+                                    "Artes Cênicas": "1",
+                                    "Música": "1",
+                                    "Outras": "2"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "total_pesq_ativ": 27,
+                "total_alun_ativ": 11,
+                "total_pesq_egress": 20,
+                "total_alun_egress": 28,
+                "contatos": [
+                    {
+                        "telefone": "(75) 99260-9398",
+                        "email": "gepilis@unilab.edu.br"
+                    }
+                ],
+                "espelho_grup": "http://dgp.cnpq.br/dgp/espelhogrupo/1639128540849651"
+            }
+        }
+    }
+]

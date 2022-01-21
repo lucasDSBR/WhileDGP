@@ -12420,7 +12420,7 @@ def pesqLinks(link, valor_cond, valor_combo):
                     driver.close()
                     g = g + 1
         driver.quit()
-        e = e + 1        
+        e = e + 1
     with open('pesquisadores.json', 'a', encoding='utf-8') as f:
         json.dump(dados, f, ensure_ascii=False, indent=4)
     sg.SystemTray.notify('WhileDGP notifica:', 'Todos os dados foram recuperados... Acesse o arquivos "pesquisadores.json" para ter acesso a todas as informções recuperadas... ')   
